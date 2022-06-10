@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Bài 1 -->
+    <form action="Bai1">
+        <div
+          class="container w-50 rounded shadow mt-5 p-3"
+          style="height: 280px; background-image: url(../img/img.jpg)">
+          <h3 class="my-3">💰Tính tiền lương nhân viên</h3>
+          <div class="form-group">
+            <input
+              id="luongMotNgay"
+              type="number"
+              class="mr-3 p-1"
+              placeholder="Nhập lương một ngày"/>
+            <input
+              id="soNgayLam"
+              type="number"
+              class="p-1"
+              placeholder="Số ngày làm"/>
+          </div>
+          <button id="tinhLuong" class="btn btn-primary btn-lg rounded-pill px-4 mb-3">Tính lương</button>
+          <input style="background-color: #adebad; font-weight: bolder;"
+            id="tienLuong"
+            class="form-control p-4 alert alert-success"
+            type="text"
+            placeholder="👉Tiền lương nhân viên"
+            readonly/>
+        </div>
+      </form>
+
+      <!-- Bài 2 -->
+      <form action="Bai2">
+        <div
+          class="container rounded shadow mt-5 p-3"
+          style="
+            height: 320px;
+            background-image: url(../img/img.jpg);
+            width: 50%;">
+          <h3 class="my-3">📚Tính giá trị trung bình</h3>
+          <div class="form-group">
+            <input
+              id="soThuNhat"
+              type="number"
+              class="mr-3 p-1 "
+              placeholder="Nhập số thứ nhất"/>
+            <input
+              id="soThuHai"
+              type="number"
+              class="mr-3 p-1"
+              placeholder="Nhập số thứ hai"/>
+            <input
+              id="soThuBa"
+              type="number"
+              class="mr-3 p-1"
+              placeholder="Nhập số thứ ba"/>
+            <input
+              id="soThuTu"
+              type="number"
+              class="mr-3 mt-3 p-1"
+              placeholder="Nhập số thứ tư"/>
+            <input
+              id="soThuNam"
+              type="number"
+              class="mr-3 mt-3 p-1"
+              placeholder="Nhập số thứ năm"/>
+          </div>
+          <button id="tinhTrungBinh" class="btn btn-primary btn-lg rounded-pill px-4 mb-3">Tính trung bình </button>
+          <input style="background-color: #adebad; font-weight: bolder;"
+            id="trungBinh"
+            class="form-control p-4 alert alert-success"
+            type="text"
+            placeholder="👉Giá trị trung bình"
+            readonly/>
+        </div>
+      </form>
+
+      <!-- Bài 3 -->
+      <form action="Bai3">
+        <div
+          class="container w-50 rounded shadow mt-5 p-3"
+          style="height: 300px; background-image: url(../img/img.jpg)">
+          <h3 class="my-3">💱Quy đổi tiền</h3>
+          <div class="form-group">
+            <input
+              id="soTienUSD"
+              type="number"
+              class="mr-3 p-1"
+              placeholder="Nhập số tiền USD"/>
+          </div>
+          <button id="tinhTienQuyDoi" class="btn btn-primary btn-lg rounded-pill px-4 mb-3">Quy đổi tiền</button>
+          <input style="background-color: #adebad; font-weight: bolder;"
+            id="tienQuyDoi"
+            class="form-control p-4"
+            type="text"
+            placeholder="👉USD -> VNĐ"
+            readonly/>
+        </div>
+      </form>
+
+      <!-- Bài 4 -->
+      <form action="Bai4">
+        <div
+          class="container w-50 rounded shadow mt-5 p-3"
+          style="height: 300px; background-image: url(../img/img.jpg)">
+          <h3 class="my-3">📏Tính diện tích, chu vi hình chữ nhật</h3>
+          <div class="form-group">
+            <input
+              id="chieuDai"
+              type="number"
+              class="mr-3 p-1"
+              placeholder="Nhập chiều dài"/>
+            <input
+              id="chieuRong"
+              type="number"
+              class="mr-3 p-1"
+              placeholder="Nhập chiều rộng"/>
+          </div>
+          <button id="tinhDTCV" class="btn btn-primary btn-lg rounded-pill px-5 mb-3">Tính</button>
+          <input style="background-color: #adebad; font-weight: bolder;"
+            id="ketQuaDTCV"
+            class="form-control p-4"
+            type="text"
+            placeholder="👉Diện tích - Chu vi hình chữ nhật"
+            readonly/>
+        </div>
+      </form>
+
+      <!-- Bài 5 -->
+      <form action="Bai5">
+        <div
+          class="container w-50 rounded shadow mt-5 p-3"
+          style="height: 300px; background-image: url(../img/img.jpg)" >
+          <h3 class="my-3">🔢Tính tổng 2 ký số</h3>
+          <div class="form-group">
+            <input
+              id="so2ChuSo"
+              type="number"
+              class="mr-3 p-1"
+              placeholder="Nhập số có 2 chữ số"
+            />
+          </div>
+          <button id="tinhTong2KySo" class="btn btn-primary btn-lg rounded-pill px-5 mb-3">Tính tổng</button>
+          <input style="background-color: #adebad; font-weight: bolder;"
+            id="ketQuaTong2KySo"
+            class="form-control p-4"
+            type="text"
+            placeholder="👉Tổng 2 ký số"
+            readonly/>
+        </div>
+      </form>
+
+
+    <div class="container" style="margin-bottom: 500px;"></div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
